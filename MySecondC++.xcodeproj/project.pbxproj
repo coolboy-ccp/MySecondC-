@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		006DB5E11B7D84F100CD61FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 006DB5E01B7D84F100CD61FC /* main.cpp */; };
+		006DB5EC1B7D874F00CD61FC /* Coordinate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 006DB5EB1B7D874F00CD61FC /* Coordinate.cpp */; };
+		00AD7F0F1B81BECD00238668 /* SecondCoordinate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AD7F0D1B81BECD00238668 /* SecondCoordinate.cpp */; };
+		00AD7F121B81BEE000238668 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AD7F101B81BEE000238668 /* Line.cpp */; };
+		00AD7F151B81C92500238668 /* DeepCopyAndShallowCopy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AD7F131B81C92500238668 /* DeepCopyAndShallowCopy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		006DB5DD1B7D84F100CD61FC /* MySecondC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MySecondC++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		006DB5E01B7D84F100CD61FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		006DB5EA1B7D874800CD61FC /* Coordinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		006DB5EB1B7D874F00CD61FC /* Coordinate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coordinate.cpp; sourceTree = "<group>"; };
+		00AD7F0D1B81BECD00238668 /* SecondCoordinate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SecondCoordinate.cpp; sourceTree = "<group>"; };
+		00AD7F0E1B81BECD00238668 /* SecondCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCoordinate.h; sourceTree = "<group>"; };
+		00AD7F101B81BEE000238668 /* Line.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Line.cpp; sourceTree = "<group>"; };
+		00AD7F111B81BEE000238668 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		00AD7F131B81C92500238668 /* DeepCopyAndShallowCopy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeepCopyAndShallowCopy.cpp; sourceTree = "<group>"; };
+		00AD7F141B81C92500238668 /* DeepCopyAndShallowCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepCopyAndShallowCopy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				006DB5E01B7D84F100CD61FC /* main.cpp */,
+				006DB5EA1B7D874800CD61FC /* Coordinate.h */,
+				006DB5EB1B7D874F00CD61FC /* Coordinate.cpp */,
+				00AD7F0D1B81BECD00238668 /* SecondCoordinate.cpp */,
+				00AD7F0E1B81BECD00238668 /* SecondCoordinate.h */,
+				00AD7F101B81BEE000238668 /* Line.cpp */,
+				00AD7F111B81BEE000238668 /* Line.h */,
+				00AD7F131B81C92500238668 /* DeepCopyAndShallowCopy.cpp */,
+				00AD7F141B81C92500238668 /* DeepCopyAndShallowCopy.h */,
 			);
 			path = "MySecondC++";
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				006DB5E11B7D84F100CD61FC /* main.cpp in Sources */,
+				00AD7F151B81C92500238668 /* DeepCopyAndShallowCopy.cpp in Sources */,
+				00AD7F121B81BEE000238668 /* Line.cpp in Sources */,
+				006DB5EC1B7D874F00CD61FC /* Coordinate.cpp in Sources */,
+				00AD7F0F1B81BECD00238668 /* SecondCoordinate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +259,7 @@
 				006DB5E61B7D84F100CD61FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
